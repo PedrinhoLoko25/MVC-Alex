@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <RootNamespace>ControleEstoqueMVC</RootNamespace>
+    <AssemblyName>ControleEstoqueMVC</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="MainForm.cs" />
+    <Compile Include="Produto.cs" />
+    <Compile Include="ProdutoModel.cs" />
+    <Compile Include="ProdutoController.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="MainForm.resx" />
+  </ItemGroup>
+
+</Project>
